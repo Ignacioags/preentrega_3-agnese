@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones</title>
+    <link rel="shortcut icon" href="../multimedia/Captura de pantalla 2023-07-31 025507.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+<!-- tipografia web -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@1,100&family=Roboto:ital,wght@0,400;1,100;1,700&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="multimedia/crismorris-logo.png" type="image/x-icon"> <!-- favicon -->
+
+<link rel="stylesheet" href="css/estilos.css"> <!-- css -->
+</head>
+
+
+<body>
+
+    <header class="cabeza"> <!-- 1  encabezado -->
+
+        <nav> <!-- menu de navegacion  y enlases-->
+
+            <li><a href="promociones.html">promociones</a></li>
+            <li><a href="fotos.html">fotos</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+            <li><a href="../index.html">inicio</a></li>
+            <li><a href="contacto.html">contacto</a></li>
+
+        </nav>
+
+    </header>
+
+<main class="cuerpo">  <!-- 2 cuerpo -->
+    <h2>Suscrbite para recibir nuestras promos!!</h2>
+    <form class="formulario">
+        <label for="nombre">Escribi tu nombre:</label>
+        <input type="text" required name="nombre"> <!-- crea el recuadro de texto -->
+
+        <br>
+
+        <label for="mail">Escribi tu mail:</label>
+        <input type="email" required name="email">
+
+        <br>
+
+        <label for="contrasena">Ingrese su contraseña:</label>
+        <input type="password" required name="contrasena">
+
+        <br>
+
+        <label for="mensaje">mandanos tu consulta</label>
+        <textarea name="mensaje" cols="30" rows="10"></textarea>
+
+        <input type="button" value="no hace nada">
+        <input type="reset" value="cuidado que borro todo">  <!-- resetea el formulario -->
+        <input type="submit" value="enviame un mensaje">  <!-- sube el formulario -->
+
+        <br>
+
+        <!-- controles de seleccion -->
+
+        <!-- radio - una sola opcion -->
+        <label for="sexo">elige tu sexo:</label>
+        <input type="radio" name="sexo" value="femenino"> femenino
+        <input type="radio" name="sexo" value="masculino"> masculino
+        <input type="radio" name="sexo" value="otro"> otro
+
+        <br>
+
+        <!-- checkbox - elegir una, dos, todas o ninguna opcion -->
+        <label for="terminos">Acepta terminos y condiciones?</label>
+        <input type="checkbox" name="terminos">
+
+        <!-- menu desplegable -->
+        <label for="pais">de que pais sos?</label>
+        <select name="pais">
+            <option value="ARG">argentina</option>
+            <option value="URU">uruguay</option>
+            <option value="BRA">brasil</option>
+        </select>
+
+        <!-- CONJUNTO DE CAMPO -->
+        <fieldset>
+            <legend>datos de envio</legend>
+            <label for="direccion">ingresa tu direccion</label>
+            <input type="text">
+        </fieldset>
+    </form>
+</main>
+
+<footer class="pies"> <!-- 3 pie de pagina -->
+    <p>COPYRIGHT IGNACIO AGNESE</p>
+</footer>
+    
+</body>
+</html>
